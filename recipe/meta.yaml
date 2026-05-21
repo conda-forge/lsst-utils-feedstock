@@ -1,4 +1,4 @@
-{% set version = "30.2026.1800" %}
+{% set version = "30.2026.2100" %}
 
 package:
   name: lsst-utils
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/lsst-utils/lsst_utils-{{ version }}.tar.gz
-  sha256: 91f4d55bc900ec58983b610d88c1ad402378222ffcfe86e2cfff8a8c2b261f41
+  sha256: cd68449b0c6a1afe4f8e75aa9ec1d4768e26bff39827e891a6e269f4273cea93
 
 build:
   noarch: python
